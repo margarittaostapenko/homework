@@ -1,0 +1,38 @@
+.main {
+  font-weight: 400;
+  font-size: 14px;
+  color: #626262;
+  font-family: "Playfair Display";
+  text-align: center;
+  margin: 0 auto;
+  width: 910px;
+}
+
+.section {
+  width: 420px;
+  display: inline-block;
+  margin-right: 60px;
+  text-align: left;
+  margin-bottom: 130px;
+}
+
+.section:nth-child(2n + 2) {
+  margin-right: 0;
+}
+
+.img1 {
+  width: 420px;
+  height: 280px;
+  margin-bottom: 30px;
+}
+.span {
+  font-family: "Ubuntu";
+  font-weight: 400;
+  color: #d4d0ca;
+  text-transform: uppercase;
+}
+
+.zagolovok {
+  font-weight: 500;
+  font-size: 30px;
+}
