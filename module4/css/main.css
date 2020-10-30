@@ -1,0 +1,121 @@
+.main {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.amazing_services {
+  margin-bottom: 90px;
+}
+
+.sec_title {
+  display: inline;
+  font-size: 24px;
+  font-family: "Kaushan Script";
+  font-weight: 400;
+  color: #333333;
+  margin-top: 178px;
+}
+
+.sec_title_2 {
+  font-size: 30px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  width: 315px;
+  height: 23px;
+  color: #333333;
+  text-transform: uppercase;
+  margin: 22px auto 111px auto;
+}
+
+.sec_title_2::after {
+  content: "";
+  display: block;
+  width: 61px;
+  height: 4px;
+  background-color: #f38181;
+  margin: 41px auto 0 auto;
+}
+
+.c_wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.c_image {
+  width: 335px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.image {
+  width: 31px;
+  height: 32px;
+  margin-right: 28px;
+}
+
+.title {
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: #333333;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.image_text {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 15px;
+  color: #898b8e;
+}
+
+.team {
+}
+
+.card_wrapper2 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card_team {
+  width: 380px;
+}
+
+.team_image {
+  margin-bottom: 30px;
+}
+
+.name_of_team_member {
+  color: #333333;
+  font-size: 14px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.profession_of_team_member {
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 15px;
+  color: #898b8e;
+}
+
+.img_wrapper {
+  width: 380px;
+  height: 470px;
+  background-color: #95e1d3;
+}
+
+.main_text {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #898b8e;
+  margin-bottom: 90px;
+}

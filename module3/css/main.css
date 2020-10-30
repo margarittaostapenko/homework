@@ -22,7 +22,7 @@
 
 .img1 {
   width: 420px;
-  height: 280px;
+  height: auto;
   margin-bottom: 30px;
 }
 .span {
@@ -30,6 +30,7 @@
   font-weight: 400;
   color: #d4d0ca;
   text-transform: uppercase;
+  margin-bottom: ;
 }
 
 .zagolovok {
