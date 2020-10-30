@@ -4,17 +4,12 @@
   text-align: center;
 }
 
-.amazing_services {
-  margin-bottom: 90px;
-}
-
 .sec_title {
   display: inline;
   font-size: 24px;
   font-family: "Kaushan Script";
   font-weight: 400;
   color: #333333;
-  margin-top: 178px;
 }
 
 .sec_title_2 {
@@ -48,6 +43,7 @@
   width: 335px;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 102px;
 }
 
 .image {
@@ -62,6 +58,7 @@
   color: #333333;
   text-transform: uppercase;
   font-weight: 400;
+  margin-bottom: 20px;
 }
 
 .image_text {
@@ -82,10 +79,7 @@
 
 .card_team {
   width: 380px;
-}
-
-.team_image {
-  margin-bottom: 30px;
+  margin-bottom: 82px;
 }
 
 .name_of_team_member {
@@ -109,6 +103,7 @@
   width: 380px;
   height: 470px;
   background-color: #95e1d3;
+  margin-bottom: 30px;
 }
 
 .main_text {
