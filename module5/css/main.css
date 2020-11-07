@@ -1,0 +1,143 @@
+.main {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.amazing_services {
+  padding-top: 182px;
+}
+
+.sec_title {
+  display: inline;
+  font-size: 24px;
+  font-family: "Kaushan Script";
+  font-weight: 400;
+  color: #333333;
+}
+
+.sec_title_2 {
+  font-size: 30px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  width: 315px;
+  height: 23px;
+  color: #333333;
+  text-transform: uppercase;
+  margin: 22px auto 111px auto;
+}
+
+.sec_title_2::after {
+  content: "";
+  display: block;
+  width: 61px;
+  height: 4px;
+  background-color: #f38181;
+  margin: 41px auto 0 auto;
+}
+
+.c_wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.card {
+  width: 335px;
+  margin-bottom: 102px;
+  position: relative;
+}
+
+.card2 {
+  width: 335px;
+  margin-bottom: 102px;
+  position: relative;
+}
+
+.card3 {
+  width: 335px;
+  margin-bottom: 102px;
+  position: relative;
+}
+
+.card4 {
+  width: 335px;
+  margin-bottom: 102px;
+  position: relative;
+}
+
+.card5 {
+  width: 335px;
+  margin-bottom: 102px;
+  position: relative;
+}
+
+.card6 {
+  width: 335px;
+  margin-bottom: 102px;
+  position: relative;
+}
+
+.card::before {
+  content: url("/images/alarm.png");
+  position: absolute;
+  left: -56px;
+  width: 31px;
+  height: 32px;
+}
+
+.card2::before {
+  content: url("/images/line_graph.png");
+  position: absolute;
+  left: -56px;
+  width: 31px;
+  height: 32px;
+}
+
+.card3::before {
+  content: url("/images/computer.png");
+  position: absolute;
+  left: -56px;
+  width: 31px;
+  height: 32px;
+}
+
+.card4::before {
+  content: url("/images/book.png");
+  position: absolute;
+  left: -56px;
+  width: 31px;
+  height: 32px;
+}
+
+.card5::before {
+  content: url("/images/home.png");
+  position: absolute;
+  left: -56px;
+  width: 31px;
+  height: 32px;
+}
+
+.card6::before {
+  content: url("/images/image.png");
+  position: absolute;
+  left: -56px;
+  width: 31px;
+  height: 32px;
+}
+
+.title {
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: #333333;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.image_text {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 15px;
+  color: #898b8e;
+}
