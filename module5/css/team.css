@@ -56,7 +56,7 @@
   cursor: pointer;
 }
 
-..social_icons_link:last-child {
+.social_icons_link:last-child {
   margin-right: 0px;
 }
 
