@@ -87,7 +87,7 @@
 }
 
 .card2::before {
-  content: url("/images/line_graph.png");
+  content: url("/images/linegraph.png");
   position: absolute;
   left: -56px;
   width: 31px;
