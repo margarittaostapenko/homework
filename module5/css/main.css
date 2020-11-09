@@ -79,7 +79,6 @@
 }
 
 .card::before {
-  background-image: url("/images/alarm.png");
   content: url("/images/alarm.png");
   position: absolute;
   left: -56px;
