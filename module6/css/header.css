@@ -1,0 +1,54 @@
+.header {
+  width: 100%;
+  position: fixed;
+  background-color: #ffffff;
+  z-index: 3;
+}
+
+.header_wrapper {
+  width: 933px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 44px;
+  position: absolute;
+}
+
+.logo {
+}
+
+.logo_link {
+  font-size: 26px;
+  color: #fed136;
+  font-family: "Dancing Script";
+  font-weight: 400;
+}
+
+.navigation {
+  width: 480px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu_list_item {
+  display: inline-block;
+}
+
+.menu_item_link {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: "Montserrat";
+  text-decoration: none;
+  color: #222222;
+}
+
+.menu_item_link:hover {
+  color: #fed136;
+  cursor: pointer;
+}
