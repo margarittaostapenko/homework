@@ -1,18 +1,14 @@
 .header {
-  width: 100%;
-  position: fixed;
-  background-color: #ffffff;
-  z-index: 3;
+  margin-bottom: 125px;
 }
 
 .header_wrapper {
-  width: 933px;
+  width: 934px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
   padding-top: 44px;
-  position: absolute;
 }
 
 .logo {

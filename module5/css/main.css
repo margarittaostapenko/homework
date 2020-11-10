@@ -79,7 +79,7 @@
 }
 
 .card::before {
-  content: url("/images/alarm.png");
+  content: url("../images/alarm.png");
   position: absolute;
   left: -56px;
   width: 31px;
@@ -87,7 +87,7 @@
 }
 
 .card2::before {
-  content: url("/images/linegraph.png");
+  content: url("../images/linegraph.png");
   position: absolute;
   left: -56px;
   width: 31px;
@@ -95,7 +95,7 @@
 }
 
 .card3::before {
-  content: url("/images/computer.png");
+  content: url("../images/computer.png");
   position: absolute;
   left: -56px;
   width: 31px;
@@ -103,7 +103,7 @@
 }
 
 .card4::before {
-  content: url("/images/book.png");
+  content: url("../images/book.png");
   position: absolute;
   left: -56px;
   width: 31px;
@@ -111,7 +111,7 @@
 }
 
 .card5::before {
-  content: url("/images/home.png");
+  content: url("../images/home.png");
   position: absolute;
   left: -56px;
   width: 31px;
@@ -119,7 +119,7 @@
 }
 
 .card6::before {
-  content: url("/images/image.png");
+  content: url("../images/image.png");
   position: absolute;
   left: -56px;
   width: 31px;
