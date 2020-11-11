@@ -34,8 +34,7 @@
   justify-content: space-between;
 }
 
-.card {
-  margin: 0 auto;
+.img_wrapper {
   width: 68px;
   height: 68px;
   border: 3px solid #fed136;
@@ -43,8 +42,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
+}
 
-  margin-bottom: 28px;
+.card {
+  width: 275px;
 }
 
 .image_card {
@@ -71,13 +73,20 @@
 
 .form_section {
   background-color: #222222;
+  padding-bottom: 115px;
+  background-image: url("../images/map_icon.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
   height: 680px;
 }
 
 .section_wrapper {
-  width: 943px;
-  margin: 0 auto;
-  padding-top: 111px;
+  padding-top: 110px;
+}
+
+.form_wrapper {
+  display: flex;
+  justify-content: center;
 }
 
 .title_form {
@@ -86,7 +95,7 @@
   font-family: "Montserrat";
   font-weight: 700;
   color: #ffff;
-  margin-bottom: 23px;
+  margin-bottom: 19px;
 }
 
 .text_form {
@@ -100,30 +109,57 @@
   margin-bottom: 75px;
 }
 
+.into_form_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input_wrapper {
+}
+
 .questions {
   display: block;
   width: 456px;
   height: 53px;
+  text-transform: uppercase;
   font-size: 14px;
   color: #bbbbbb;
   font-weight: 700;
   font-family: "Montserrat";
+  border: none;
+  border-radius: 4px;
+  padding: 20px 20px;
+  margin: 28px 30px;
+}
+
+.submit_wrapper {
 }
 
 .submit {
+  text-transform: uppercase;
+  background-color: #fed136;
+  border: none;
+  border-radius: 4px;
   font-size: 18px;
   color: #ffffff;
   font-weight: 700;
   font-family: "Montserrat";
   text-align: center;
+  padding: 25px 47px;
+  width: 240px;
+  height: 66px;
 }
 
 .comments {
   width: 456px;
   height: 211px;
+  text-transform: uppercase;
   font-size: 14px;
-  letter-spacing: 0px;
+  border: none;
+  border-radius: 4px;
   color: #bbbbbb;
   font-weight: 700;
   font-family: "Montserrat";
+  padding: 20px 20px;
 }
