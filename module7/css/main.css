@@ -1,0 +1,134 @@
+.main {
+}
+
+.team_members {
+  margin: 0 auto;
+}
+
+.member_title {
+  font-size: 14px;
+  color: #333333;
+  font-weight: 700;
+  font-family: "Montserrat";
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.card_wrapper {
+}
+
+.card {
+}
+
+.photos_wrapper {
+  position: relative;
+}
+
+.member_photo_wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.member_photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  margin-bottom: 20px;
+}
+
+.member_icon {
+  width: 15px;
+  height: 15px;
+}
+
+.name_of_member {
+  font-size: 14px;
+  color: #333333;
+  font-weight: 700;
+  font-family: "Montserrat";
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.member_bio {
+  font-size: 14px;
+  color: #666666;
+  font-weight: 300;
+  font-family: "Roboto";
+  text-align: center;
+  margin-bottom: 26px;
+}
+
+.see_other {
+  display: block;
+  margin: 0 auto 60px;
+  font-size: 14px;
+  color: #ff4e50;
+  font-weight: 700;
+  font-family: "Montserrat";
+  width: 280px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  border: 2px solid #ff4e50;
+}
+
+.icon_wrapper {
+  position: absolute;
+  top: 80px;
+  right: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 17px;
+  background-color: #ff4e50;
+
+  border: 4px solid #ffffff;
+}
+
+.icon_wrapper2 {
+  position: absolute;
+  top: 80px;
+  right: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 17px;
+  background-color: #ffa507;
+
+  border: 4px solid #ffffff;
+}
+
+.icon_wrapper3 {
+  position: absolute;
+  top: 80px;
+  right: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 17px;
+  background-color: #1cd7ad;
+
+  border: 4px solid #ffffff;
+}
+
+.icon_wrapper4 {
+  position: absolute;
+  top: 80px;
+  right: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 17px;
+  background-color: #4e73db;
+
+  border: 4px solid #ffffff;
+}

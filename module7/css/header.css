@@ -1,0 +1,58 @@
+.header_wrapper {
+  background-image: url("../images/crowd_of_ppl.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(26, 25, 21, 0.6);
+  background-size: cover;
+  padding-bottom: 140px;
+  margin-bottom: 70px;
+}
+
+.header {
+  padding: 1rem 1rem 0 1rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 125px;
+}
+
+.menu_button {
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Montserrat";
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  border-radius: 36px;
+  width: 90px;
+  height: 36px;
+  border-radius: 36px;
+}
+.menu_button:last-child {
+  margin-right: 0;
+}
+
+.menu_button:hover {
+  border: solid 2px #ffffff;
+}
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!TABLET!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+@media screen and (min-width: 768px) {
+  .header_wrapper {
+  }
+
+  ..header {
+  }
+
+  .menu_button {
+  }
+
+  .menu_button:hover {
+    border: solid 2px #ffffff;
+  }
+
+  .menu_button:last-child {
+    margin-right: 0;
+  }
+}
