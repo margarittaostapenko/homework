@@ -1,58 +1,140 @@
-.header_wrapper {
-  background-image: url("../images/crowd_of_ppl.png");
-  background-repeat: no-repeat;
+.header {
+  background-image: url("../images/promo320.png");
+  background-color: rgba(26, 25, 21, 0.5);
   background-position: center;
-  background-color: rgba(26, 25, 21, 0.6);
   background-size: cover;
-  padding-bottom: 140px;
-  margin-bottom: 70px;
+  background-repeat: no-repeat;
 }
 
-.header {
+.header_wrapper {
   padding: 1rem 1rem 0 1rem;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 125px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.navigation_wrapper {
+  margin-bottom: 38px;
+}
+
+.menu {
+  margin-bottom: 115px;
 }
 
 .menu_button {
+  font-family: "Montserrat";
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 10px 18px;
+  border: 2px solid transparent;
+  border-radius: 36px;
+  background-color: transparent;
+  outline: none;
+}
+
+.menu_button:hover {
+  border: 2px solid #ffffff;
+}
+
+.logo {
+}
+
+.logo_link {
+  font-family: "Montserrat";
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.header_title {
+  font-family: "Montserrat";
+  font-size: 28px;
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 19px;
+}
+
+.header_subtitle {
+  font-family: "Roboto";
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 300;
+  padding: 0 28px;
+  margin-bottom: 19px;
+}
+
+.header_button {
   font-size: 14px;
   color: #ffffff;
   font-weight: 700;
   font-family: "Montserrat";
-  text-align: center;
+  width: 280px;
+  height: 40px;
   border: none;
-  background-color: transparent;
-  border-radius: 36px;
-  width: 90px;
-  height: 36px;
-  border-radius: 36px;
-}
-.menu_button:last-child {
-  margin-right: 0;
+  border-radius: 40px;
+  background-color: #ff4e50;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 139px;
 }
 
-.menu_button:hover {
-  border: solid 2px #ffffff;
-}
-
-/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!TABLET!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/*///////////////////////////////////TABLET/////////////////////////////////*/
 
 @media screen and (min-width: 768px) {
+  .header {
+    background-image: url("../images/promo768.png");
+    background-color: rgba(26, 25, 21, 0.7);
+  }
+
   .header_wrapper {
+    padding: 2rem 2rem 0 2rem;
   }
 
-  ..header {
+  .navigation_wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-bottom: 152px;
   }
 
-  .menu_button {
+  .menu {
+    margin-bottom: 0;
   }
 
-  .menu_button:hover {
-    border: solid 2px #ffffff;
+  .header_title {
+    font-size: 50px;
+    margin-bottom: 40px;
+    padding: 0 90px;
   }
 
-  .menu_button:last-child {
-    margin-right: 0;
+  .header_subtitle {
+    font-size: 24px;
+    margin-bottom: 34px;
+  }
+
+  .header_button {
+    margin-bottom: 234px;
+    padding: 14px 25px;
+  }
+}
+
+/*/ ///////////////////////////////DESKTOP/////////////////////////////*/
+
+@media screen and (min-width: 1440px) {
+  .header {
+    background-image: url("../images/promo1440.png");
+    background-color: rgba(26, 25, 21, 1);
+  }
+
+  .header_wrapper {
+    padding: 46px 0 0 0;
+    width: 940px;
+  }
+
+  .header_button {
+    margin-bottom: 234px;
   }
 }
